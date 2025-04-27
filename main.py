@@ -1,6 +1,5 @@
 from src.preprocess import load_and_preprocess_data
-from src.model import train_model, evaluate_model
-from src.model import visualize_tree
+from src.model import train_model, evaluate_model, visualize_tree
 import pandas as pd
 
 print("🔄 Starting data preprocessing...")
