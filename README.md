@@ -38,14 +38,13 @@ The project simulates a real-world business case for a Credit Union to minimize 
 
 ## 📂 Project Structure
 
-fraud-detection-decision-tree/ ├── data/ 
+# fraud-detection-decision-tree/ ├── data/ 
 # Raw dataset (Kaggle source) ├── notebooks/ 
 # Jupyter notebooks for EDA ├── reports/ 
 # Model visualizations (confusion matrices, tree plots) ├── src/ 
 # Source code (preprocessing, training, evaluation) ├── main.py 
 # Main execution script ├── requirements.txt 
-# Project dependencies └── README.md 
-# This file
+# Project dependencies └── README.md
 
 
 ---
