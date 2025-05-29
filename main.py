@@ -1,6 +1,7 @@
 from src.preprocess import load_and_preprocess_data
 from src.model import train_model, evaluate_model, visualize_tree
 import pandas as pd
+import joblib
 
 print("🔄 Starting data preprocessing...")
 X_train, X_test, y_train, y_test = load_and_preprocess_data()
@@ -9,6 +10,11 @@ print("✅ Data preprocessing complete.")
 print("🌲 Training decision tree model...")
 model = train_model(X_train, y_train)
 print("✅ Model training complete.")
+
+
+# ✅ Save the model right away
+joblib.dump(model, 'decision_tree_model.pkl')
+print("✅ Model saved as decision_tree_model.pkl")
 
 print("🧪 Evaluating model...")
 evaluate_model(model, X_test, y_test)
