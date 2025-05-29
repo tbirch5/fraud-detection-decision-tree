@@ -56,3 +56,8 @@ def evaluate_model(clf, X_test, y_test):
 
     print(f"✅ Confusion matrix saved to: {save_path}")
     # plt.show()
+"""
+plt.show() has been commented out for the confution matrix due to user interaction required when 
+running main.py. if matrix diagram not closed other diagrams will not be generated until the diagram
+box is closed.
+"""
