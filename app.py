@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-st.set_page_config(page_title="Fraud Detection System", page_icon="🔎")
+st.set_page_config(page_title="Fraud Detection System by Tedra Birch,010189119", page_icon="🔎")
 
 # Load trained model
 try:
